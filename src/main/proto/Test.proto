@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "com.helloworld";
+
+message Hello {
+    // With this named "descriptor" the project will fail to build.
+    // Rename it to anything else and the project builds just fine.
+    string descriptor = 1;
+}
